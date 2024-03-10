@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.active {
+  color: #000 !important;
+}
+
+/* Dropdown menu stilleri */
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  width: 200px;
+  transition: 0.6s;
+}
+
+.dropdown-toggle {
+  border: none;
+  background-color: transparent;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

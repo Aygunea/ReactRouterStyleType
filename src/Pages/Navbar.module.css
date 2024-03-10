@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+}
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+.menu li a {
+  display: block;
+  color: #00000080;
+  transition: 0.6s;
+  padding: 10px 20px;
+}
+
+.menu a:hover {
+  color: #000;
+}
