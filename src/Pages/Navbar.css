@@ -39,3 +39,67 @@ a {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+.button1{
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #0D6efd;
+  border-radius: 10px;
+}
+.button2{
+background-color: transparent;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  border:1px solid #fff;
+  border-radius: 10px;
+}
+.home-container{
+  background-color: #212529;
+  color: #fff;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home-content{
+  width: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.home-content h1{
+  font-size: 45px;
+}
+.home-content p{
+  color: #ffffff80;
+}
+.home-btns{
+  display: flex;
+  gap: 20px;
+}
+.cards{
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards .card{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card .card-icon{
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  display: inline-block;
+  background-color: #0D6efd;
+  color: #fff;
+  border-radius:10px ;
+  font-size: 20px;
+}
